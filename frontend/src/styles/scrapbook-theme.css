@@ -1,0 +1,274 @@
+/* Scrapbook Theme Utility Classes */
+
+/* Paper Textures */
+.paper-texture {
+  background-color: var(--paper-cream);
+  background-image: 
+    url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' /%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+  position: relative;
+}
+
+.paper-torn {
+  position: relative;
+}
+
+.paper-torn::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    transparent 2%, 
+    var(--paper-cream) 2%, 
+    var(--paper-cream) 4%,
+    transparent 4%
+  );
+  background-size: 20px 100%;
+}
+
+/* Polaroid Frame */
+.polaroid-frame {
+  background: white;
+  padding: 1rem 1rem 3rem 1rem;
+  box-shadow: 
+    0 4px 8px var(--shadow-soft),
+    0 8px 16px var(--shadow-soft);
+  transform: rotate(var(--rotation, 0deg));
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.polaroid-frame:hover {
+  transform: rotate(var(--rotation, 0deg)) scale(1.05);
+  box-shadow: 
+    0 8px 16px var(--shadow-deep),
+    0 16px 32px var(--shadow-soft);
+}
+
+.polaroid-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tape Decoration */
+.tape-decoration {
+  position: relative;
+}
+
+.tape-decoration::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 100px;
+  height: 30px;
+  background: var(--tape-yellow);
+  opacity: 0.7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.tape-vertical::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%) rotate(88deg);
+  width: 80px;
+  height: 25px;
+  background: var(--tape-yellow);
+  opacity: 0.7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Pin Decoration */
+.pin-decoration {
+  position: relative;
+}
+
+.pin-decoration::before {
+  content: '📌';
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  font-size: 2rem;
+  transform: rotate(25deg);
+  filter: drop-shadow(2px 2px 3px var(--shadow-soft));
+}
+
+/* Handwritten Text */
+.handwritten {
+  font-family: var(--font-handwritten);
+  font-size: 1.5em;
+  line-height: 1.3;
+  color: var(--ink-brown);
+  letter-spacing: 0.05em;
+}
+
+.handwritten-display {
+  font-family: var(--font-display);
+  font-size: 2em;
+  line-height: 1.2;
+  color: var(--ink-brown);
+}
+
+/* Stamp Effect */
+.stamp {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 3px dashed var(--accent-coral);
+  border-radius: 4px;
+  background: var(--paper-beige);
+  transform: rotate(-5deg);
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-coral);
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Sticker Effect */
+.sticker {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  border-radius: 50px;
+  border: 3px solid var(--ink-brown);
+  box-shadow: 
+    0 4px 8px var(--shadow-soft),
+    inset 0 1px 0 rgba(255,255,255,0.8);
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--ink-brown);
+}
+
+/* Sketch Border */
+.sketch-border {
+  position: relative;
+  padding: 1.5rem;
+  border: 2px solid var(--ink-brown);
+  border-radius: 4px;
+  background: var(--paper-cream);
+}
+
+.sketch-border::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px solid var(--coffee-stain);
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+/* Coffee Stain */
+.coffee-stain {
+  position: relative;
+}
+
+.coffee-stain::after {
+  content: '';
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, 
+    rgba(196, 165, 123, 0.3) 0%, 
+    rgba(196, 165, 123, 0.1) 50%, 
+    transparent 70%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Highlight Effect */
+.highlight {
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 50%,
+    var(--accent-sage) 50%,
+    var(--accent-sage) 100%
+  );
+  background-size: 220% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.5s ease;
+  padding: 0.1em 0.3em;
+}
+
+.highlight:hover {
+  background-position: 0 0;
+}
+
+/* Shadow Layers */
+.shadow-soft {
+  box-shadow: 0 2px 8px var(--shadow-soft);
+}
+
+.shadow-medium {
+  box-shadow: 
+    0 4px 12px var(--shadow-soft),
+    0 2px 4px var(--shadow-soft);
+}
+
+.shadow-deep {
+  box-shadow: 
+    0 10px 30px var(--shadow-deep),
+    0 4px 8px var(--shadow-soft);
+}
+
+/* Doodle Decorations */
+.doodle-stars {
+  position: relative;
+}
+
+.doodle-stars::before,
+.doodle-stars::after {
+  content: '★';
+  position: absolute;
+  color: var(--accent-coral);
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
+.doodle-stars::before {
+  top: -10px;
+  left: -20px;
+  transform: rotate(-15deg);
+}
+
+.doodle-stars::after {
+  bottom: -10px;
+  right: -20px;
+  transform: rotate(25deg);
+}
+
+/* Washi Tape Effect */
+.washi-tape {
+  position: relative;
+  padding-top: 2rem;
+}
+
+.washi-tape::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 25px;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--accent-sage),
+    var(--accent-sage) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  opacity: 0.4;
+}

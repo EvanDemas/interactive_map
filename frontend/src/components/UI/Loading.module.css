@@ -1,0 +1,92 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.spinner {
+  text-align: center;
+}
+
+.polaroid {
+  background: white;
+  padding: 1rem 1rem 3rem 1rem;
+  box-shadow: 
+    0 4px 8px var(--shadow-soft),
+    0 8px 16px var(--shadow-soft);
+  display: inline-block;
+  animation: float 3s ease-in-out infinite, spin 4s linear infinite;
+  transform-origin: center;
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(
+    135deg,
+    var(--paper-beige) 0%,
+    var(--paper-tan) 50%,
+    var(--coffee-stain) 100%
+  );
+  background-size: 200% 200%;
+  animation: shimmer 2s ease-in-out infinite;
+  border: 2px solid var(--paper-tan);
+}
+
+.text {
+  margin-top: 2rem;
+  font-family: var(--font-handwritten);
+  font-size: 2rem;
+  color: var(--ink-brown);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(2deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

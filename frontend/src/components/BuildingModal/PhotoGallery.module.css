@@ -1,0 +1,116 @@
+.galleryWrapper {
+  margin: 2rem 0;
+  position: relative;
+}
+
+.polaroidFrame {
+  background: white;
+  padding: 1rem 1rem 2rem 1rem;
+  box-shadow: 
+    0 8px 20px var(--shadow-deep),
+    0 4px 8px var(--shadow-soft);
+  border: 1px solid rgba(0,0,0,0.1);
+  transform: rotate(-0.5deg);
+  position: relative;
+}
+
+.polaroidFrame::before {
+  content: '📎';
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  font-size: 2rem;
+  transform: rotate(15deg);
+  filter: drop-shadow(2px 2px 3px var(--shadow-soft));
+  z-index: 10;
+}
+
+/* Override react-image-gallery styles for scrapbook aesthetic */
+:global(.image-gallery) {
+  width: 100%;
+}
+
+:global(.image-gallery-slide img) {
+  border-radius: 4px;
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+:global(.image-gallery-thumbnail) {
+  border: 3px solid var(--paper-beige) !important;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+:global(.image-gallery-thumbnail:hover),
+:global(.image-gallery-thumbnail.active) {
+  border-color: var(--accent-coral) !important;
+  transform: scale(1.05);
+}
+
+:global(.image-gallery-thumbnail img) {
+  border-radius: 2px;
+}
+
+:global(.image-gallery-description) {
+  background: rgba(249, 246, 240, 0.95) !important;
+  color: var(--ink-brown) !important;
+  font-family: var(--font-handwritten) !important;
+  font-size: 1.3rem !important;
+  padding: 1rem !important;
+  border-top: 2px solid var(--accent-coral);
+  bottom: 0 !important;
+  text-shadow: none !important;
+  line-height: 1.4;
+}
+
+:global(.image-gallery-icon) {
+  color: var(--accent-coral) !important;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 2px 4px var(--shadow-soft));
+}
+
+:global(.image-gallery-icon:hover) {
+  color: var(--ink-brown) !important;
+  transform: scale(1.2);
+}
+
+:global(.image-gallery-svg) {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+:global(.image-gallery-left-nav),
+:global(.image-gallery-right-nav) {
+  padding: 20px !important;
+}
+
+:global(.image-gallery-bullets .image-gallery-bullet) {
+  background: var(--paper-tan) !important;
+  border: 2px solid var(--ink-brown) !important;
+  box-shadow: 0 2px 4px var(--shadow-soft) !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+:global(.image-gallery-bullets .image-gallery-bullet.active) {
+  background: var(--accent-coral) !important;
+  transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .polaroidFrame {
+    padding: 0.75rem 0.75rem 1.5rem 0.75rem;
+    transform: rotate(0deg);
+  }
+  
+  :global(.image-gallery-slide img) {
+    max-height: 300px;
+  }
+  
+  :global(.image-gallery-description) {
+    font-size: 1.1rem !important;
+    padding: 0.75rem !important;
+  }
+}

@@ -1,0 +1,167 @@
+:root {
+  /* Scrapbook Color Palette - Warm, aged paper tones */
+  --paper-cream: #F9F6F0;
+  --paper-beige: #EBE3D5;
+  --paper-tan: #D9CCBB;
+  --coffee-stain: #C4A57B;
+  --ink-brown: #5D4E37;
+  --tape-yellow: #F4E4C1;
+  --accent-coral: #E88D67;
+  --accent-sage: #9CAF88;
+  --shadow-soft: rgba(93, 78, 55, 0.15);
+  --shadow-deep: rgba(93, 78, 55, 0.3);
+  
+  /* Typography */
+  --font-handwritten: 'Reenie Beanie', cursive;
+  --font-display: 'Caveat', cursive;
+  --font-body: 'Crimson Pro', serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2.5rem;
+  --spacing-xl: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--paper-cream);
+  color: var(--ink-brown);
+  line-height: 1.7;
+  overflow-x: hidden;
+  background-image: 
+    url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink-brown);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+}
+
+a {
+  color: var(--accent-coral);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--coffee-stain);
+  text-decoration: underline wavy;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Smooth animations */
+* {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--accent-coral);
+  color: var(--paper-cream);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--paper-beige);
+  border-left: 2px solid var(--paper-tan);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--coffee-stain);
+  border-radius: 6px;
+  border: 2px solid var(--paper-beige);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-brown);
+}
+
+/* Loading animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 3px solid var(--accent-coral);
+  outline-offset: 3px;
+  border-radius: 2px;
+}

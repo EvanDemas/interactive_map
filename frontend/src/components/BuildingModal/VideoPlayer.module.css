@@ -1,0 +1,88 @@
+.videoSection {
+  margin: 3rem 0;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--ink-brown);
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-coral);
+  border-radius: 2px;
+  transform: skewX(-10deg);
+}
+
+.videoFrame {
+  background: white;
+  padding: 1rem;
+  box-shadow: 
+    0 8px 20px var(--shadow-deep),
+    0 4px 8px var(--shadow-soft);
+  border: 3px solid var(--ink-brown);
+  border-radius: 8px;
+  transform: rotate(0.5deg);
+  position: relative;
+}
+
+.videoFrame::before {
+  content: '▶';
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 2rem;
+  color: var(--accent-coral);
+  filter: drop-shadow(2px 2px 4px var(--shadow-soft));
+  z-index: 10;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.playerWrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  background: var(--paper-beige);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.playerWrapper > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 768px) {
+  .videoSection {
+    margin: 2rem 0;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  
+  .videoFrame {
+    padding: 0.75rem;
+    transform: rotate(0deg);
+  }
+}
