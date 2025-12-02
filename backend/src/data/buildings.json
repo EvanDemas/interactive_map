@@ -11,19 +11,19 @@
       "description": "A stunning waterfront renovation that seamlessly blends traditional Japanese architectural elements with modern minimalism. Originally built in 1965, this residence was completely reimagined to capture panoramic views of Kobe Harbor while maintaining its historical significance. The project features extensive use of natural materials including cedar wood and local stone, creating a warm atmosphere that honors the building's heritage.",
       "images": [
         {
-          "url": "/images/buildings/bison_gallery/gallery_1.jpg",
+          "url": "/images/buildings/bison_gallery/gallery_1.JPG",
           "caption": "Gallery exterior view",
-          "thumbnail": "/images/buildings/bison_gallery/gallery_1.jpg"
+          "thumbnail": "/images/buildings/bison_gallery/gallery_1.JPG"
         },
         {
-          "url": "/images/buildings/bison_gallery/gallery_2.jpg",
+          "url": "/images/buildings/bison_gallery/gallery_2.JPG",
           "caption": "Gallery interior view",
-          "thumbnail": "/images/buildings/bison_gallery/gallery_2.jpg"
+          "thumbnail": "/images/buildings/bison_gallery/gallery_2.JPG"
         },
         {
-          "url": "/images/buildings/bison_gallery/open_bison_1.jpg",
+          "url": "/images/buildings/bison_gallery/open_bison_1.JPG",
           "caption": "Gallery during the Open Bison event",
-          "thumbnail": "/images/buildings/bison_gallery/open_bison_1.jpg"
+          "thumbnail": "/images/buildings/bison_gallery/open_bison_1.JPG"
         }
       ],
       "video": {
@@ -53,19 +53,14 @@
       "description": "Located in Kobe's historic Kitano district, this heritage house renovation preserves the charm of early 20th-century Western-style architecture while introducing contemporary functionality. The project carefully restored original decorative elements, stained glass windows, and intricate moldings while updating structural systems and integrating modern amenities. Special attention was paid to maintaining the building's cultural significance within the preserved cityscape.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920",
-          "caption": "Restored Victorian-era facade in the Kitano district",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300"
+          "url": "/images/buildings/bison_share_house/kitchen.JPG",
+          "caption": "Share house living room and kitchen",
+          "thumbnail": "/images/buildings/bison_share_house/kitchen.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920",
-          "caption": "Grand entrance hall with restored stained glass",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920",
-          "caption": "Period details preserved throughout the renovation",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300"
+          "url": "/images/buildings/bison_share_house/kitchen_into_hallway.JPG",
+          "caption": "View of the kithcen into the hallway leading to the bathrooms and bedrooms",
+          "thumbnail": "/images/buildings/bison_share_house/kitchen_into_hallway.JPG"
         }
       ],
       "video": {
@@ -95,19 +90,19 @@
       "description": "A bold transformation of a 1980s commercial building into a vibrant mixed-use plaza that serves as a community gathering space. The renovation introduced vertical gardens, open-air courtyards, and flexible retail spaces that adapt to seasonal markets and cultural events. Sustainable features include rainwater harvesting, solar panels, and a green roof system that reduces urban heat while providing recreational space for local residents and workers.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1920",
-          "caption": "Street-level view of the revitalized commercial plaza",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=300"
+          "url": "/images/buildings/harbor_cafe/ueno_harbor.JPG",
+          "caption": "Café owner Ueno-san standing in front of the café",
+          "thumbnail": "/images/buildings/harbor_cafe/ueno_harbor.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=1920",
-          "caption": "Central courtyard with vertical gardens",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=300"
+          "url": "/images/buildings/harbor_cafe/harbor_1.JPG",
+          "caption": "View looking into Harbor Café",
+          "thumbnail": "/images/buildings/harbor_cafe/harbor_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=1920",
-          "caption": "Evening atmosphere with integrated lighting design",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=300"
+          "url": "/images/buildings/harbor_cafe/harbor_2.JPG",
+          "caption": "View from the back of the harbor café",
+          "thumbnail": "/images/buildings/harbor_cafe/harbor_2.JPG"
         }
       ],
       "video": {
@@ -137,19 +132,19 @@
       "description": "This adaptive reuse project converted a former textile factory into contemporary artisan studios and galleries. The design celebrates the building's industrial heritage with exposed brick walls, steel beams, and original factory windows, while introducing bright, flexible spaces for creative work. Shared amenities include a communal workshop, exhibition space, and rooftop terrace that fosters collaboration among artists and craftspeople.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1920",
-          "caption": "Industrial heritage meets modern creative space",
-          "thumbnail": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=300"
+          "url": "/images/buildings/okuba_bookstore/okuba_opening.JPG",
+          "caption": "Okuba bookstore on a successful opening day",
+          "thumbnail": "/images/buildings/okuba_bookstore/okuba_opening.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1920",
-          "caption": "Studio space with original factory windows",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=300"
+          "url": "/images/buildings/okuba_bookstore/okuba_2.JPG",
+          "caption": "Okuba bookstores interior view and literature",
+          "thumbnail": "/images/buildings/okuba_bookstore/okuba_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=1920",
-          "caption": "Gallery area showcasing local artisan work",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=300"
+          "url": "/images/buildings/okuba_bookstore/okuba_1.JPG",
+          "caption": "Okuba bookstore also sells random gizmos",
+          "thumbnail": "/images/buildings/okuba_bookstore/okuba_1.JPG"
         }
       ],
       "video": {
@@ -179,19 +174,19 @@
       "description": "Perched on Mount Rokko with breathtaking views of Kobe and Osaka Bay, this mountain retreat renovation harmonizes with its natural surroundings. The project incorporated local timber, stone cladding, and large glass panels that frame dramatic vistas while minimizing environmental impact. Interior spaces flow seamlessly to outdoor terraces, creating a contemplative environment that changes with the seasons.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920",
-          "caption": "Mountain retreat nestled in natural landscape",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300"
+          "url": "/images/buildings/police_dormitory/police_living_room.JPG",
+          "caption": "The living room, where many Haioku Group members eat and relax",
+          "thumbnail": "/images/buildings/police_dormitory/police_living_room.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920",
-          "caption": "Panoramic views from the living area",
-          "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300"
+          "url": "/images/buildings/police_dormitory/police_kitchen.JPG",
+          "caption": "The kitchen, where many Haioku Group members cook",
+          "thumbnail": "/images/buildings/police_dormitory/police_kitchen.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920",
-          "caption": "Natural materials create warm interior atmosphere",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=300"
+          "url": "/images/buildings/police_dormitory/police_balcony.JPG",
+          "caption": "The second floor balcony, with an amazing view of Kobe",
+          "thumbnail": "/images/buildings/police_dormitory/police_balcony.JPG"
         }
       ],
       "video": {
@@ -221,19 +216,14 @@
       "description": "A comprehensive renovation of a medical facility focused on creating healing environments through thoughtful design. The project introduced natural light throughout patient areas, healing gardens, and artwork that promotes wellness. Advanced building systems improve air quality and acoustic comfort while reducing energy consumption. The design prioritizes patient dignity and staff efficiency.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920",
-          "caption": "Welcoming entrance with healing garden",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300"
+          "url": "/images/buildings/port_bike_shop/DSC00072.JPG",
+          "caption": "Port Bike Shop exterior and street view",
+          "thumbnail": "/images/buildings/port_bike_shop/DSC00072.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920",
-          "caption": "Patient area designed for comfort and natural light",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920",
-          "caption": "Interior corridor with artwork and natural views",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300"
+          "url": "/images/buildings/port_bike_shop/DSC00074.JPG",
+          "caption": "Detail view of Port Bike Shop façade",
+          "thumbnail": "/images/buildings/port_bike_shop/DSC00074.JPG"
         }
       ],
       "video": {
@@ -263,19 +253,14 @@
       "description": "A public pavilion renovation that celebrates Suma Beach's role as a beloved recreational destination. The design features a distinctive curved roof inspired by ocean waves, open-air spaces that capture sea breezes, and durable materials selected to withstand coastal conditions. The pavilion serves multiple functions including changing facilities, cafe, and event space for summer festivals.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1920",
-          "caption": "Beachfront pavilion with distinctive wave-inspired roof",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=300"
+          "url": "/images/buildings/rave_basement/basement_1.JPG",
+          "caption": "Ajito basement interior during the day",
+          "thumbnail": "/images/buildings/rave_basement/basement_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=1920",
-          "caption": "Open-air spaces designed for beach activities",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=1920",
-          "caption": "Evening view with integrated lighting",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=300"
+          "url": "/images/buildings/rave_basement/open_bison_1.JPG",
+          "caption": "Ajito basement during the Open Bison event",
+          "thumbnail": "/images/buildings/rave_basement/open_bison_1.JPG"
         }
       ],
       "video": {
@@ -305,19 +290,19 @@
       "description": "Adjacent to the historic Ikuta Shrine, this community hall renovation respects traditional Japanese architectural principles while serving modern community needs. The design incorporates natural materials, sliding partitions for flexible space use, and a roof garden that provides both insulation and contemplative space. The building hosts cultural events, educational programs, and community gatherings.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1920",
-          "caption": "Community hall harmonizing with shrine grounds",
-          "thumbnail": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=300"
+          "url": "/images/buildings/tanibuka/tanibuka_exterior_1.JPG",
+          "caption": "Tanibuka exterior on the street",
+          "thumbnail": "/images/buildings/tanibuka/tanibuka_exterior_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1920",
-          "caption": "Flexible interior space with traditional elements",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=300"
+          "url": "/images/buildings/tanibuka/tanibuka_exterior_2.JPG",
+          "caption": "Another view of Tanibuka exterior",
+          "thumbnail": "/images/buildings/tanibuka/tanibuka_exterior_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=1920",
-          "caption": "Roof garden providing contemplative space",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=300"
+          "url": "/images/buildings/tanibuka/tanibuka_interior.JPG",
+          "caption": "Tanibuka interior communal space",
+          "thumbnail": "/images/buildings/tanibuka/tanibuka_interior.JPG"
         }
       ],
       "video": {
@@ -338,7 +323,7 @@
     },
     {
       "id": "9",
-      "name": "Nagata Urban Farm Market",
+      "name": "Kyogo Tea House",
       "location": {
         "lat": 34.69415,
         "lng": 135.17156,
@@ -347,19 +332,19 @@
       "description": "This innovative project transformed an underutilized parking structure into an urban farm and farmers' market. The renovation includes rooftop growing areas, vendor stalls constructed from reclaimed materials, and educational spaces for urban agriculture workshops. The design promotes local food systems and community resilience while activating previously dead space in the urban fabric.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920",
-          "caption": "Urban farm market creating community space",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300"
+          "url": "/images/buildings/tea_house/tea_house_1.JPG",
+          "caption": "Kyogo Tea House exterior view",
+          "thumbnail": "/images/buildings/tea_house/tea_house_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920",
-          "caption": "Vendor stalls with reclaimed materials",
-          "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300"
+          "url": "/images/buildings/tea_house/tea_house_2.JPG",
+          "caption": "Interior seating area at Kyogo Tea House",
+          "thumbnail": "/images/buildings/tea_house/tea_house_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920",
-          "caption": "Rooftop growing areas supporting local food",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=300"
+          "url": "/images/buildings/tea_house/tea_house_open_bison.JPG",
+          "caption": "Kyogo Tea House during the Open Bison event",
+          "thumbnail": "/images/buildings/tea_house/tea_house_open_bison.JPG"
         }
       ],
       "video": {
@@ -376,48 +361,6 @@
         "yearCompleted": 2024,
         "projectType": "Urban Agriculture",
         "tags": ["sustainable", "community", "agriculture"]
-      }
-    },
-    {
-      "id": "10",
-      "name": "Hyogo Prefectural Museum Annex",
-      "location": {
-        "lat": 34.6864,
-        "lng": 135.191,
-        "address": "2-1-1 Wakinohama Kaigan-dori, Chuo-ku, Kobe"
-      },
-      "description": "The museum annex renovation created contemporary exhibition spaces while respecting the existing building's modernist architecture. The project introduced state-of-the-art climate control for artifact preservation, flexible display systems, accessible circulation, and a striking glass atrium that serves as a gathering space. The design balances the demands of artifact conservation with creating an inviting public cultural venue.",
-      "images": [
-        {
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920",
-          "caption": "Museum annex with contemporary glass atrium",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920",
-          "caption": "Exhibition space with flexible display systems",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920",
-          "caption": "Interior gallery with natural and artificial lighting",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300"
-        }
-      ],
-      "video": {
-        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "type": "youtube",
-        "thumbnail": "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=300"
-      },
-      "model3d": {
-        "url": "/models/museum-annex.glb",
-        "format": "glb",
-        "hasModel": true
-      },
-      "metadata": {
-        "yearCompleted": 2022,
-        "projectType": "Cultural Facility",
-        "tags": ["cultural", "modernist", "exhibition"]
       }
     }
   ]
