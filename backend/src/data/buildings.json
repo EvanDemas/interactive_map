@@ -2,28 +2,28 @@
   "buildings": [
     {
       "id": "1",
-      "name": "Harbor View Residence",
+      "name": "Bison Gallery",
       "location": {
-        "lat": 34.6901,
-        "lng": 135.1955,
-        "address": "1-1 Hatoba-cho, Chuo-ku, Kobe"
+        "lat": 34.693845,
+        "lng": 135.171214,
+        "address": "16-39 Umemotocho, Hyogo Ward, Kobe, Hyogo"
       },
       "description": "A stunning waterfront renovation that seamlessly blends traditional Japanese architectural elements with modern minimalism. Originally built in 1965, this residence was completely reimagined to capture panoramic views of Kobe Harbor while maintaining its historical significance. The project features extensive use of natural materials including cedar wood and local stone, creating a warm atmosphere that honors the building's heritage.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920",
-          "caption": "Exterior view showcasing the blend of traditional and modern design",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300"
+          "url": "/images/buildings/bison_gallery/gallery_1.jpg",
+          "caption": "Gallery exterior view",
+          "thumbnail": "/images/buildings/bison_gallery/gallery_1.jpg"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920",
-          "caption": "Living space with floor-to-ceiling windows overlooking the harbor",
-          "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300"
+          "url": "/images/buildings/bison_gallery/gallery_2.jpg",
+          "caption": "Gallery interior view",
+          "thumbnail": "/images/buildings/bison_gallery/gallery_2.jpg"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920",
-          "caption": "Interior detail showing custom woodwork and natural lighting",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=300"
+          "url": "/images/buildings/bison_gallery/open_bison_1.jpg",
+          "caption": "Gallery during the Open Bison event",
+          "thumbnail": "/images/buildings/bison_gallery/open_bison_1.jpg"
         }
       ],
       "video": {
@@ -44,11 +44,11 @@
     },
     {
       "id": "2",
-      "name": "Kitano Heritage House",
+      "name": "Bison Community Share House",
       "location": {
-        "lat": 34.6951,
-        "lng": 135.1898,
-        "address": "3-13-3 Kitano-cho, Chuo-ku, Kobe"
+        "lat": 34.693637,
+        "lng": 135.171307,
+        "address": "15-15 Umemotocho, Hyogo Ward, Kobe, Hyogo"
       },
       "description": "Located in Kobe's historic Kitano district, this heritage house renovation preserves the charm of early 20th-century Western-style architecture while introducing contemporary functionality. The project carefully restored original decorative elements, stained glass windows, and intricate moldings while updating structural systems and integrating modern amenities. Special attention was paid to maintaining the building's cultural significance within the preserved cityscape.",
       "images": [
@@ -86,11 +86,11 @@
     },
     {
       "id": "3",
-      "name": "Sannomiya Commercial Plaza",
+      "name": "Oonichi Harbor Café",
       "location": {
-        "lat": 34.6937,
-        "lng": 135.1955,
-        "address": "6-1-5 Sannomiya-cho, Chuo-ku, Kobe"
+        "lat": 34.686602,
+        "lng": 135.141201,
+        "address": "1 Chome-14-7 Hikawacho, Nagata Ward, Kobe, Hyogo"
       },
       "description": "A bold transformation of a 1980s commercial building into a vibrant mixed-use plaza that serves as a community gathering space. The renovation introduced vertical gardens, open-air courtyards, and flexible retail spaces that adapt to seasonal markets and cultural events. Sustainable features include rainwater harvesting, solar panels, and a green roof system that reduces urban heat while providing recreational space for local residents and workers.",
       "images": [
@@ -128,11 +128,11 @@
     },
     {
       "id": "4",
-      "name": "Motomachi Artisan Studios",
+      "name": "Okuba Bookstore",
       "location": {
-        "lat": 34.6889,
-        "lng": 135.1850,
-        "address": "2-8-1 Motomachi-dori, Chuo-ku, Kobe"
+        "lat": 34.691785,
+        "lng": 135.165324,
+        "address": "25-11 Minatoyamacho, Hyogo Ward, Kobe, Hyogo"
       },
       "description": "This adaptive reuse project converted a former textile factory into contemporary artisan studios and galleries. The design celebrates the building's industrial heritage with exposed brick walls, steel beams, and original factory windows, while introducing bright, flexible spaces for creative work. Shared amenities include a communal workshop, exhibition space, and rooftop terrace that fosters collaboration among artists and craftspeople.",
       "images": [
@@ -170,11 +170,11 @@
     },
     {
       "id": "5",
-      "name": "Rokko Mountain Retreat",
+      "name": "Asahi Dormitory",
       "location": {
-        "lat": 34.7324,
-        "lng": 135.2314,
-        "address": "1-32 Rokko-san-cho, Nada-ku, Kobe"
+        "lat": 34.693655,
+        "lng": 135.170712,
+        "address": "16 Umemotocho, Hyogo Ward, Kobe, Hyogo"
       },
       "description": "Perched on Mount Rokko with breathtaking views of Kobe and Osaka Bay, this mountain retreat renovation harmonizes with its natural surroundings. The project incorporated local timber, stone cladding, and large glass panels that frame dramatic vistas while minimizing environmental impact. Interior spaces flow seamlessly to outdoor terraces, creating a contemplative environment that changes with the seasons.",
       "images": [
@@ -212,11 +212,11 @@
     },
     {
       "id": "6",
-      "name": "Kobe Medical Center Renewal",
+      "name": "Port Bike Shop",
       "location": {
-        "lat": 34.6820,
-        "lng": 135.1702,
-        "address": "5-1-1 Minatojima-minamimachi, Chuo-ku, Kobe"
+        "lat": 34.676041,
+        "lng": 135.178706,
+        "address": "5 Chome-1-3 Aioicho, Chuo Ward, Kobe, Hyogo"
       },
       "description": "A comprehensive renovation of a medical facility focused on creating healing environments through thoughtful design. The project introduced natural light throughout patient areas, healing gardens, and artwork that promotes wellness. Advanced building systems improve air quality and acoustic comfort while reducing energy consumption. The design prioritizes patient dignity and staff efficiency.",
       "images": [
@@ -254,11 +254,11 @@
     },
     {
       "id": "7",
-      "name": "Suma Beachfront Pavilion",
+      "name": "Ajito Basement",
       "location": {
-        "lat": 34.6456,
-        "lng": 135.1189,
-        "address": "1-3 Suma-ura-dori, Suma-ku, Kobe"
+        "lat": 34.69400,
+        "lng": 135.17140,
+        "address": "16-37 Umemotocho, Hyogo Ward, Kobe, Hyogo 652-0003"
       },
       "description": "A public pavilion renovation that celebrates Suma Beach's role as a beloved recreational destination. The design features a distinctive curved roof inspired by ocean waves, open-air spaces that capture sea breezes, and durable materials selected to withstand coastal conditions. The pavilion serves multiple functions including changing facilities, cafe, and event space for summer festivals.",
       "images": [
@@ -296,11 +296,11 @@
     },
     {
       "id": "8",
-      "name": "Ikuta Shrine Community Hall",
+      "name": "Tanibuka",
       "location": {
-        "lat": 34.6923,
-        "lng": 135.1928,
-        "address": "1-2-1 Shimoyamate-dori, Chuo-ku, Kobe"
+        "lat": 34.692222,
+        "lng": 135.16360,
+        "address": "〒652-0011 Hyogo, Kobe, Hyogo Ward, Sannocho, 1 Chome−5−15"
       },
       "description": "Adjacent to the historic Ikuta Shrine, this community hall renovation respects traditional Japanese architectural principles while serving modern community needs. The design incorporates natural materials, sliding partitions for flexible space use, and a roof garden that provides both insulation and contemplative space. The building hosts cultural events, educational programs, and community gatherings.",
       "images": [
@@ -340,9 +340,9 @@
       "id": "9",
       "name": "Nagata Urban Farm Market",
       "location": {
-        "lat": 34.6654,
-        "lng": 135.1458,
-        "address": "7-1-1 Futabacho, Nagata-ku, Kobe"
+        "lat": 34.69415,
+        "lng": 135.17156,
+        "address": "16-37 Umemotocho, Hyogo Ward, Kobe, Hyogo 652-0003"
       },
       "description": "This innovative project transformed an underutilized parking structure into an urban farm and farmers' market. The renovation includes rooftop growing areas, vendor stalls constructed from reclaimed materials, and educational spaces for urban agriculture workshops. The design promotes local food systems and community resilience while activating previously dead space in the urban fabric.",
       "images": [
@@ -383,7 +383,7 @@
       "name": "Hyogo Prefectural Museum Annex",
       "location": {
         "lat": 34.6864,
-        "lng": 135.1910,
+        "lng": 135.191,
         "address": "2-1-1 Wakinohama Kaigan-dori, Chuo-ku, Kobe"
       },
       "description": "The museum annex renovation created contemporary exhibition spaces while respecting the existing building's modernist architecture. The project introduced state-of-the-art climate control for artifact preservation, flexible display systems, accessible circulation, and a striking glass atrium that serves as a gathering space. The design balances the demands of artifact conservation with creating an inviting public cultural venue.",
