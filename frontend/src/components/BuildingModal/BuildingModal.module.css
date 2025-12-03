@@ -126,6 +126,8 @@
   color: var(--ink-brown);
   margin: 0;
   text-align: justify;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .section {
