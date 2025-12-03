@@ -72,7 +72,11 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  pointer-events: none;
+  pointer-events: auto;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
 }
 
@@ -89,6 +93,17 @@
     0 4px 12px var(--shadow-deep),
     inset 0 1px 0 rgba(255,255,255,0.8);
   transform: rotate(-2deg);
+}
+
+.mapLabel:hover .labelText {
+  background: var(--accent-coral);
+  color: white;
+  border-color: var(--accent-coral);
+  box-shadow:
+    0 6px 16px var(--shadow-deep),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+  transform: rotate(-1deg) translateY(-2px);
+  transition: all 150ms ease-out;
 }
 
 @keyframes bounce {
