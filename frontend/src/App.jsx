@@ -58,7 +58,8 @@ function App() {
       <main className={styles.main}>
         <div className={styles.intro}>
           <p className={styles.introText}>
-            Explore our collection of architectural renovations across Kobe. 
+            Explore Haioku Group's architectural renovation projects across Kobe.
+            <br /> 
             Each pin represents a unique project that blends heritage with innovation.
           </p>
         </div>
