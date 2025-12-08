@@ -106,14 +106,14 @@
         }
       ],
       "video": {
-        "url": "",
+        "url": "https://youtu.be/9XGKqFp4-L0?si=_6HnqT1gKb7MlErg",
         "type": "direct",
-        "thumbnail": ""
+        "thumbnail": "/images/buildings/harbor_cafe/harbor_2.JPG"
       },
       "model3d": {
-        "url": "",
-        "format": "",
-        "hasModel": false
+        "url": "/models/oonichi_harbor.glb",
+        "format": "glb",
+        "hasModel": true
       },
       "metadata": {
         "yearCompleted": 2024,
@@ -195,7 +195,7 @@
         "thumbnail": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=300"
       },
       "model3d": {
-        "url": "/models/rokko-retreat.glb",
+        "url": "/models/bison_police_house.glb",
         "format": "glb",
         "hasModel": true
       },
@@ -353,9 +353,9 @@
         "thumbnail": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=300"
       },
       "model3d": {
-        "url": "",
-        "format": "",
-        "hasModel": false
+        "url": "/models/teahouse.glb",
+        "format": "glb",
+        "hasModel": true
       },
       "metadata": {
         "yearCompleted": 2024,
