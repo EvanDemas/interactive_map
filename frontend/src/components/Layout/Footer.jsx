@@ -11,7 +11,7 @@ const Footer = () => {
           <p className={styles.credits}>
             <span className={styles.handwritten}>Crafted with care</span>
             <br />
-            © {currentYear} Kobe Architectural Firm
+            © {currentYear} Haioku Group
           </p>
           <div className={styles.stamp}>
             Heritage<br/>Preserved
