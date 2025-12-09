@@ -105,6 +105,15 @@
   filter: drop-shadow(2px 2px 4px var(--shadow-soft));
 }
 
+.descriptionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .projectType {
   display: inline-block;
   padding: 0.5rem 1.25rem;
@@ -114,9 +123,33 @@
   font-size: 1.25rem;
   font-weight: 600;
   border-radius: 25px;
-  margin-bottom: 1.5rem;
   box-shadow: 0 4px 8px var(--shadow-soft);
   letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.languageToggle {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 2px solid var(--accent-sage);
+  border-radius: 20px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-sage);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px var(--shadow-soft);
+}
+
+.languageToggle:hover {
+  background: var(--accent-sage);
+  color: white;
+  transform: scale(1.05);
+}
+
+.languageToggle:active {
+  transform: scale(0.95);
 }
 
 .description {
