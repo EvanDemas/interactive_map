@@ -1,13 +1,12 @@
 import axios from 'axios';
 
 // Resolve API base URL
-// - Production: prefer VITE_API_URL unless it points to localhost, otherwise use relative ('')
-// - Development: use VITE_API_URL if provided, else default to localhost
+// - Production (Vercel): use relative path to hit the same origin
+// - Development: use VITE_API_URL if provided, else localhost
 const isProd = import.meta.env.PROD;
 const envApi = import.meta.env.VITE_API_URL;
-const isLocalEnv = envApi && /localhost|127\.0\.0\.1/i.test(envApi);
 const API_URL = isProd
-  ? (envApi && !isLocalEnv ? envApi : '')
+  ? ''
   : (envApi || 'http://localhost:3001');
 
 const api = axios.create({
@@ -23,8 +22,10 @@ export const fetchBuildings = async () => {
     // API returns { buildings: [...] }, so access buildings directly
     return response.data.buildings || response.data || [];
   } catch (error) {
-    console.error('Error fetching buildings:', error);
-    throw new Error('Failed to fetch buildings. Please try again later.');
+    const status = error?.response?.status;
+    const data = error?.response?.data;
+    console.error('Error fetching buildings:', { status, data, message: error.message });
+    throw new Error(`Failed to fetch buildings${status ? ` (status ${status})` : ''}.`);
   }
 };
 
@@ -33,8 +34,10 @@ export const fetchBuildingById = async (id) => {
     const response = await api.get(`/api/buildings/${id}`);
     return response.data.building || response.data;
   } catch (error) {
-    console.error(`Error fetching building ${id}:`, error);
-    throw new Error('Failed to fetch building details.');
+    const status = error?.response?.status;
+    const data = error?.response?.data;
+    console.error(`Error fetching building ${id}:`, { status, data, message: error.message });
+    throw new Error(`Failed to fetch building details${status ? ` (status ${status})` : ''}.`);
   }
 };
 

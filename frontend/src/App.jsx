@@ -43,7 +43,7 @@ function App() {
             <h2 className={styles.errorTitle}>Oops! Something went wrong</h2>
             <p className={styles.errorMessage}>{error}</p>
             <p className={styles.errorHint}>
-              Make sure the backend server is running on port 3001
+              Check that the API is reachable at <code>/api/health</code> and <code>/api/buildings</code>. If you just deployed, wait a few seconds and refresh.
             </p>
           </div>
         </div>
