@@ -4,13 +4,18 @@ An interactive web application showcasing architectural renovation projects by a
 
 ![Project Preview](https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=400&fit=crop)
 
+## 🌐 Live Demo
+
+**Deployed on Vercel**: [Your Live URL Here]
+
 ## 🎨 Features
 
 - **Interactive Map**: Leaflet.js-powered map centered on Kobe with custom markers
 - **Building Details**: Rich modal displays with photos, videos, and 3D models
+- **Language Toggle**: Switch between English and Japanese descriptions
 - **Scrapbook Design**: Unique handcrafted aesthetic with paper textures, polaroid frames, and handwritten fonts
 - **Responsive**: Mobile-first design that works on all devices
-- **10 Renovations**: Curated collection of heritage and modern renovation projects
+- **9 Renovations**: Curated collection of heritage and modern renovation projects
 
 ## 🏗️ Tech Stack
 
@@ -24,10 +29,17 @@ An interactive web application showcasing architectural renovation projects by a
 - CSS Modules
 
 ### Backend
-- Node.js
-- Express.js
+- Node.js (local development)
+- Express.js (local development)
+- Vercel Serverless Functions (production)
 - CORS middleware
 - JSON-based data storage
+
+## 🚀 Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/EvanDemas/interactive_map)
+
+See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for detailed deployment instructions.
 
 ## 📋 Prerequisites
 
