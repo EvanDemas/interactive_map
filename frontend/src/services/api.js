@@ -13,7 +13,8 @@ const api = axios.create({
 export const fetchBuildings = async () => {
   try {
     const response = await api.get('/api/buildings');
-    return response.data.buildings || [];
+    // API returns { buildings: [...] }, so access buildings directly
+    return response.data.buildings || response.data || [];
   } catch (error) {
     console.error('Error fetching buildings:', error);
     throw new Error('Failed to fetch buildings. Please try again later.');
