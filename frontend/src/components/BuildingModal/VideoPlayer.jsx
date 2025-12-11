@@ -8,7 +8,7 @@ const VideoPlayer = ({ video }) => {
   }
 
   // Construct full URL for the thumbnail
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+  const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '' : 'http://localhost:3001');
   const thumbnailUrl = video.thumbnail && !video.thumbnail.startsWith('http') 
     ? `${API_URL}${video.thumbnail}` 
     : video.thumbnail;
