@@ -1,4 +1,5 @@
-import buildingsData from './buildings-data.json' assert { type: 'json' };
+// Import JSON data as JavaScript module
+import buildingsData from './buildings-data.js';
 
 export default function handler(req, res) {
   // Enable CORS
