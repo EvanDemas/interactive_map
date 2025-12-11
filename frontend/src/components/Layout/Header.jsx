@@ -7,13 +7,13 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logo}>
           <h1 className={styles.title}>
-            <span className={styles.titleMain}>Kobe</span>
-            <span className={styles.titleSub}>Architectural Renovations</span>
+            <span className={styles.titleMain}>Haioku Group</span>
+            <span className={styles.titleSub}>Reinovating Abandonded Houses</span>
           </h1>
           <div className={styles.underline}></div>
         </div>
         <p className={styles.tagline}>
-          Preserving heritage, building futures
+          Creation out of the old and forgotten
         </p>
       </div>
     </header>

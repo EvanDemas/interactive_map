@@ -7,6 +7,12 @@ const VideoPlayer = ({ video }) => {
     return null;
   }
 
+  // Construct full URL for the thumbnail
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+  const thumbnailUrl = video.thumbnail && !video.thumbnail.startsWith('http') 
+    ? `${API_URL}${video.thumbnail}` 
+    : video.thumbnail;
+
   return (
     <div className={styles.videoSection}>
       <h3 className={styles.sectionTitle}>Project Video</h3>
@@ -17,7 +23,7 @@ const VideoPlayer = ({ video }) => {
             width="100%"
             height="100%"
             controls={true}
-            light={video.thumbnail || true}
+            light={thumbnailUrl || true}
             playing={false}
             config={{
               youtube: {

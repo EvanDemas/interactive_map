@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Modal from '../UI/Modal';
 import PhotoGallery from './PhotoGallery';
 import VideoPlayer from './VideoPlayer';
@@ -6,7 +6,17 @@ import Model3DViewer from './Model3DViewer';
 import styles from './BuildingModal.module.css';
 
 const BuildingModal = ({ building, isOpen, onClose }) => {
+  const [language, setLanguage] = useState('en'); // 'en' or 'ja'
+  
   if (!building) return null;
+
+  const toggleLanguage = () => {
+    setLanguage(prev => prev === 'en' ? 'ja' : 'en');
+  };
+
+  const displayDescription = language === 'ja' && building.descriptionJa 
+    ? building.descriptionJa 
+    : building.description;
 
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
@@ -31,11 +41,20 @@ const BuildingModal = ({ building, isOpen, onClose }) => {
 
         {/* Description Section */}
         <div className={styles.descriptionSection}>
-          <div className={styles.projectType}>
-            {building.metadata.projectType}
+          <div className={styles.descriptionHeader}>
+            <div className={styles.projectType}>
+              {building.metadata.projectType}
+            </div>
+            <button 
+              className={styles.languageToggle}
+              onClick={toggleLanguage}
+              aria-label="Toggle language"
+            >
+              {language === 'en' ? '日本語' : 'English'}
+            </button>
           </div>
           <p className={styles.description}>
-            {building.description}
+            {displayDescription}
           </p>
         </div>
 

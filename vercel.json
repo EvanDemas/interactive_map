@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "rewrites": [
+    {
+      "source": "/api/buildings",
+      "destination": "/api/buildings"
+    },
+    {
+      "source": "/api/buildings/:id",
+      "destination": "/api/buildings?id=:id"
+    },
+    {
+      "source": "/api/health",
+      "destination": "/api/health"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "/api/static/:path*"
+    },
+    {
+      "source": "/models/:path*",
+      "destination": "/api/static/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}

@@ -2,28 +2,29 @@
   "buildings": [
     {
       "id": "1",
-      "name": "Harbor View Residence",
+      "name": "Bison Gallery",
       "location": {
-        "lat": 34.6901,
-        "lng": 135.1955,
-        "address": "1-1 Hatoba-cho, Chuo-ku, Kobe"
+        "lat": 34.693845,
+        "lng": 135.171214,
+        "address": "16-39 Umemotocho, Hyogo Ward, Kobe, Hyogo"
       },
-      "description": "A stunning waterfront renovation that seamlessly blends traditional Japanese architectural elements with modern minimalism. Originally built in 1965, this residence was completely reimagined to capture panoramic views of Kobe Harbor while maintaining its historical significance. The project features extensive use of natural materials including cedar wood and local stone, creating a warm atmosphere that honors the building's heritage.",
+      "description": "With a desire to promote artists amidst a city with very little housing for artists, Haioku group decided to renovate a building that could be used for both artist residency housing, as well as a gallery to showcase art. An initially dilapidated building, Haioku group worked hard to create a sleek, appealing building to attract artists to the Bison community and provide a space that could provide support for these artists. With galleries in Kobe being uncommon, both members from Haioku Group, and the local surrounding community visit the building out of curiosity, which increases the reach that these artists have, which has led to artistic crafts being incorporated in many of the subsequent Haioku Group projects. In the future, Haioku group leaders want to create a more permanent display with frequent monthly events.",
+      "descriptionJa": "アーティストの住居が少ない街でアーティストを支援したいという思いから、廃屋グループはアーティストの居住スペースとアート展示のギャラリーの両方として使える建物の改装を決めました。最初は荒廃した建物でしたが、廃屋グループは、バイソンコミュニティにアーティストを引き付け、サポートできる空間を作るために一生懸命働きました。神戸にはギャラリーが少ないため、廃屋グループのメンバーだけでなく、地元の周辺コミュニティも好奇心から訪れ、アーティストの影響力が広がり、その後の廃屋グループのプロジェクトに芸術工芸が取り入れられるようになりました。将来的には、月例イベントを伴うより恒久的な展示を作りたいと考えています。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920",
-          "caption": "Exterior view showcasing the blend of traditional and modern design",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300"
+          "url": "/images/buildings/bison_gallery/gallery_1.JPG",
+          "caption": "Gallery exterior view",
+          "thumbnail": "/images/buildings/bison_gallery/gallery_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920",
-          "caption": "Living space with floor-to-ceiling windows overlooking the harbor",
-          "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300"
+          "url": "/images/buildings/bison_gallery/gallery_2.JPG",
+          "caption": "Gallery interior view",
+          "thumbnail": "/images/buildings/bison_gallery/gallery_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920",
-          "caption": "Interior detail showing custom woodwork and natural lighting",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=300"
+          "url": "/images/buildings/bison_gallery/open_bison_1.JPG",
+          "caption": "Gallery during the Open Bison event",
+          "thumbnail": "/images/buildings/bison_gallery/open_bison_1.JPG"
         }
       ],
       "video": {
@@ -44,28 +45,24 @@
     },
     {
       "id": "2",
-      "name": "Kitano Heritage House",
+      "name": "Bison Community Share House",
       "location": {
-        "lat": 34.6951,
-        "lng": 135.1898,
-        "address": "3-13-3 Kitano-cho, Chuo-ku, Kobe"
+        "lat": 34.693637,
+        "lng": 135.171307,
+        "address": "15-15 Umemotocho, Hyogo Ward, Kobe, Hyogo"
       },
-      "description": "Located in Kobe's historic Kitano district, this heritage house renovation preserves the charm of early 20th-century Western-style architecture while introducing contemporary functionality. The project carefully restored original decorative elements, stained glass windows, and intricate moldings while updating structural systems and integrating modern amenities. Special attention was paid to maintaining the building's cultural significance within the preserved cityscape.",
+      "description": "The Sharehosues were the second house worked on by Haioku Group back when Bison was full of akiyas and also was one of the first projects done under Haioku Group(Nishimura Gumi) at the time. Sprouting form this sharehouse they gained trust and lots within the neighborhood and started building the Bison village.\n\nThe renovation of the sharehouses started with only 3 members, during the COVID-19 pandemic and slowly gained momentum as more and more people became part of Haioku Group's renovation efforts, despite the progress of society and the city were halted during the pandemic time within Bison kept moving forward.\n\nThe sharehouse reflects the core theme of Haioku Group of creating something interesting with old preexisting material, with kitchen counters made by connecting pieces of rain gutter, and the house filled with antiques and furniture made out of scrap material. The house also holds a fireplace and provides a place to huddle and warm up during the cold winters.\n\nThe share house first saw its use as a temporary office location for  Haioku group but since then has held 3 generations of residents. The first resident of the house was a teenage girl who lived there rent free as part of her goal of living without spending a single yen even on food or housing. The second generation of residents were a group of women now all core members of the Bison and Haioku Group community, and the current generation is a friend group of younger men reinventing and modifying the building as they see fit by breaking down walls and ceilings.\n\nThe building is not bound to the idea of a shared house and Miyako san, the manager of Haioku Group, wishes for the house to be a place that will be used by each individual for what's best for them.",
+      "descriptionJa": "シェアハウスは、バイソンが空き家でいっぱいだった頃に廃屋グループが手がけた2番目の家であり、当時の廃屋グループ（西村組）の最初のプロジェクトの1つでもありました。このシェアハウスから始まり、近隣で信頼と土地を獲得し、バイソン村の建設を始めました。\n\nシェアハウスの改装は、コロナウイルスパンデミック中に3人のメンバーだけで始まり、徐々に勢いを増し、より多くの人々がハイオクグループの改装活動に参加するようになりました。社会と都市の進歩がパンデミック中に停止したにもかかわらず、バイソン内での変化は前進し続けました。\n\nシェアハウスは、古い既存の材料で面白いものを作るというハイオクグループの中心テーマを反映しており、雨樋を繋げて作られたキッチンカウンター、スクラップ材料で作られたアンティークや家具で満たされています。家には暖炉もあり、寒い冬に集まって暖まる場所を提供しています。\n\nシェアハウスは最初ハイオクグループの仮オフィスとして使用されましたが、それ以来3世代の居住者を迎えています。最初の居住者は、食事や住居に1円も使わずに生活するという目標の一環として無料で住んでいた10代の少女でした。2世代目の居住者は、現在バイソンとハイオクグループコミュニティの中心メンバーである女性のグループで、現在の世代は、壁や天井を壊して建物を再発明し修正している若い男性の友人グループです。\n\n建物はシェアハウスという概念に縛られておらず、ハイオクグループのマネージャーであるミヤコさんは、この家が各個人にとって最善のことに使われる場所であることを望んでいます。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920",
-          "caption": "Restored Victorian-era facade in the Kitano district",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300"
+          "url": "/images/buildings/bison_share_house/kitchen.JPG",
+          "caption": "Share house living room and kitchen",
+          "thumbnail": "/images/buildings/bison_share_house/kitchen.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920",
-          "caption": "Grand entrance hall with restored stained glass",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920",
-          "caption": "Period details preserved throughout the renovation",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300"
+          "url": "/images/buildings/bison_share_house/kitchen_into_hallway.JPG",
+          "caption": "View of the kithcen into the hallway leading to the bathrooms and bedrooms",
+          "thumbnail": "/images/buildings/bison_share_house/kitchen_into_hallway.JPG"
         }
       ],
       "video": {
@@ -86,39 +83,40 @@
     },
     {
       "id": "3",
-      "name": "Sannomiya Commercial Plaza",
+      "name": "Oonichi Harbor Café",
       "location": {
-        "lat": 34.6937,
-        "lng": 135.1955,
-        "address": "6-1-5 Sannomiya-cho, Chuo-ku, Kobe"
+        "lat": 34.686602,
+        "lng": 135.141201,
+        "address": "1 Chome-14-7 Hikawacho, Nagata Ward, Kobe, Hyogo"
       },
-      "description": "A bold transformation of a 1980s commercial building into a vibrant mixed-use plaza that serves as a community gathering space. The renovation introduced vertical gardens, open-air courtyards, and flexible retail spaces that adapt to seasonal markets and cultural events. Sustainable features include rainwater harvesting, solar panels, and a green roof system that reduces urban heat while providing recreational space for local residents and workers.",
+      "description": "Oonichi Harbor Cafe is a coffee shop and daily kitchen located in Maruyama, Kobe, owned and run by Ueno Takaharu, a Haioku Group member and local resident of the area. Before renovation started the building was an abandoned coin laundry and had no further use. Since then, the owners collaborated with the Haioku Group and renovated it into a vibrant community space. The renovation project began with the goal of reactivating the neighborhood and creating a welcoming place for people of all age groups. Local residents were invited to participate and contribute to the construction by handcrafting parts of the building.\n\n    While the renovation preserved the original structure and identity of the building, necessary modifications were made to turn it into a cafe. Specifically, a few of the changes focused on openness and lots of windows where natural light can shine in, creating an inviting atmosphere. Although, some features still remained the same, such as the flooring of the coin laundry, while blending it with a more modern and minimalistic style.\n\n    Since its opening the cafe has operated as a community hub, where many people gather and interact. Through the Harbor Cafe the owner aims to set an example for young locals to make a change within Maruyama, hoping to  increase activity in their childhood neighborhood.",
+      "descriptionJa": "大日ハーバーカフェは、神戸の丸山に位置するコーヒーショップ兼デイリーキッチンで、ハイオクグループのメンバーであり地元住民である上野さんが所有・運営しています。改装が始まる前、建物は放置されたコインランドリーで、それ以上の用途はありませんでした。そこをオーナーは廃屋グループと協力し、活気のあるコミュニティスペースへと改築しました。改装プロジェクトは、近隣地域を再活性化し、すべての年齢層の人々にとって居心地の良い場所を作ることを目標に始まりました。また建物の一部は地元住民を招待する形で地域の人々の手で作られています。\n\n    改装は建物の元の構造とアイデンティティを保持しながら、カフェに変えるために必要な変更が加えられました。具体的には、開放性と自然光が差し込む多くの窓に焦点を当てた変更がいくつか行われ、居心地の良い雰囲気を作り出しました。ただし、コインランドリーの床など、一部の特徴はそのまま残され、より現代的でミニマルなスタイルと融合されました。\n\n    オープン以来、カフェはコミュニティのハブとして機能し、多くの人々が集まり交流しています。ハーバーカフェを通じて、オーナーは地元の若者が丸山で変化を起こす模範となり、生まれ育った地元の再活性化に繋がることを望んでいます。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1920",
-          "caption": "Street-level view of the revitalized commercial plaza",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=300"
+          "url": "/images/buildings/harbor_cafe/ueno_harbor.JPG",
+          "caption": "Café owner Ueno-san standing in front of the café",
+          "thumbnail": "/images/buildings/harbor_cafe/ueno_harbor.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=1920",
-          "caption": "Central courtyard with vertical gardens",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=300"
+          "url": "/images/buildings/harbor_cafe/harbor_1.JPG",
+          "caption": "View looking into Harbor Café",
+          "thumbnail": "/images/buildings/harbor_cafe/harbor_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=1920",
-          "caption": "Evening atmosphere with integrated lighting design",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=300"
+          "url": "/images/buildings/harbor_cafe/harbor_2.JPG",
+          "caption": "View from the back of the harbor café",
+          "thumbnail": "/images/buildings/harbor_cafe/harbor_2.JPG"
         }
       ],
       "video": {
-        "url": "",
+        "url": "https://youtu.be/9XGKqFp4-L0?si=_6HnqT1gKb7MlErg",
         "type": "direct",
-        "thumbnail": ""
+        "thumbnail": "/images/buildings/harbor_cafe/harbor_2.JPG"
       },
       "model3d": {
-        "url": "",
-        "format": "",
-        "hasModel": false
+        "url": "/models/oonichi_harbor.glb",
+        "format": "glb",
+        "hasModel": true
       },
       "metadata": {
         "yearCompleted": 2024,
@@ -128,28 +126,29 @@
     },
     {
       "id": "4",
-      "name": "Motomachi Artisan Studios",
+      "name": "Okuba Bookstore",
       "location": {
-        "lat": 34.6889,
-        "lng": 135.1850,
-        "address": "2-8-1 Motomachi-dori, Chuo-ku, Kobe"
+        "lat": 34.691785,
+        "lng": 135.165324,
+        "address": "25-11 Minatoyamacho, Hyogo Ward, Kobe, Hyogo"
       },
-      "description": "This adaptive reuse project converted a former textile factory into contemporary artisan studios and galleries. The design celebrates the building's industrial heritage with exposed brick walls, steel beams, and original factory windows, while introducing bright, flexible spaces for creative work. Shared amenities include a communal workshop, exhibition space, and rooftop terrace that fosters collaboration among artists and craftspeople.",
+      "description": "Okuba Store is a bookstore located near the Bison Community renovated and run by our sponsor, Noriyoshi-san and a group of his friends, selling trinkets, risograph prints, coffee and English books.",
+      "descriptionJa": "オクバストアは、バイソンコミュニティの近くにある書店で、スポンサーであるノリヨシさんと彼の友人グループによって改装・運営されており、小物、リソグラフプリント、コーヒー、英語の本を販売しています。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1920",
-          "caption": "Industrial heritage meets modern creative space",
-          "thumbnail": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=300"
+          "url": "/images/buildings/okuba_bookstore/okuba_opening.JPG",
+          "caption": "Okuba bookstore on a successful opening day",
+          "thumbnail": "/images/buildings/okuba_bookstore/okuba_opening.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1920",
-          "caption": "Studio space with original factory windows",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=300"
+          "url": "/images/buildings/okuba_bookstore/okuba_2.JPG",
+          "caption": "Okuba bookstores interior view and literature",
+          "thumbnail": "/images/buildings/okuba_bookstore/okuba_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=1920",
-          "caption": "Gallery area showcasing local artisan work",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=300"
+          "url": "/images/buildings/okuba_bookstore/okuba_1.JPG",
+          "caption": "Okuba bookstore also sells random gizmos",
+          "thumbnail": "/images/buildings/okuba_bookstore/okuba_1.JPG"
         }
       ],
       "video": {
@@ -170,28 +169,29 @@
     },
     {
       "id": "5",
-      "name": "Rokko Mountain Retreat",
+      "name": "Asahi Dormitory",
       "location": {
-        "lat": 34.7324,
-        "lng": 135.2314,
-        "address": "1-32 Rokko-san-cho, Nada-ku, Kobe"
+        "lat": 34.693655,
+        "lng": 135.170712,
+        "address": "16 Umemotocho, Hyogo Ward, Kobe, Hyogo"
       },
-      "description": "Perched on Mount Rokko with breathtaking views of Kobe and Osaka Bay, this mountain retreat renovation harmonizes with its natural surroundings. The project incorporated local timber, stone cladding, and large glass panels that frame dramatic vistas while minimizing environmental impact. Interior spaces flow seamlessly to outdoor terraces, creating a contemplative environment that changes with the seasons.",
+      "description": "The headquarters of the Haioku Group is an old police dormitory that serves as their current base of operations. The Asahi Dormitory currently holds both their central office as well as rooms for temporary residence, along with amenities like bathrooms, a kitchen and a laundry room.\n\nOriginally the dormitory for the Mobile Traffic Unit, it became a female police residence, and from there managed by a single family, until the building was sold. While owned by Haioku Group connections in Tokyo, the building has since been managed and operated by Haioku Group personnel. The first floor of the building is used as an office space and has many of amenities, while the second floor is being used for short stays.\n\nNishimura-san hopes to one day move their office to another location within Bison, and transform the station into an artworking studio with an artist residence, and welcomes the idea of constantly moving their central hub when new projects call for change. They also want to include a garden space, and small pop-up shops for people to utilize. Since the building is not an abandoned house and they do not own it, these renovations will be less in detail compared to other projects they have worked on by keeping the second floor as is and only focusing on the first floor.",
+      "descriptionJa": "廃屋グループの本部旭寮は、現在の活動拠点となっている古い警察寮です。旭寮には現在、中央オフィスと一時滞在用の部屋、バスルーム、キッチン、ランドリールームなどの設備があります。\n\n元々は機動交通隊の寮でしたが、女性警察官寮となり、その後一家族によって管理されていましたが、最終的に建物は売却されました。東京のハイオクグループの関係者が所有していますが、建物はハイオクグループの人員によって管理・運営されています。建物の1階はオフィススペースとして使用され、多くの設備があり、2階は短期滞在用として使用されています。\n\n西村さんは、いつかバイソン内の別の場所にオフィスを移し、駅をアーティストレジデンス付きのアートワーキングスタジオに変えることを望んでおり、新しいプロジェクトが変化を求めるときに中央ハブを常に移動するというアイデアを歓迎しています。また、庭のスペースや小さなポップアップショップを人々が利用できるようにしたいと考えています。建物は空き家ではなく、所有していないため、これらの改装は他のプロジェクトと比べて改装工事の寮が少なく、2階をそのままにして1階にのみ焦点を当てます。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920",
-          "caption": "Mountain retreat nestled in natural landscape",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300"
+          "url": "/images/buildings/police_dormitory/police_living_room.JPG",
+          "caption": "The living room, where many Haioku Group members eat and relax",
+          "thumbnail": "/images/buildings/police_dormitory/police_living_room.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920",
-          "caption": "Panoramic views from the living area",
-          "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300"
+          "url": "/images/buildings/police_dormitory/police_kitchen.JPG",
+          "caption": "The kitchen, where many Haioku Group members cook",
+          "thumbnail": "/images/buildings/police_dormitory/police_kitchen.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920",
-          "caption": "Natural materials create warm interior atmosphere",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=300"
+          "url": "/images/buildings/police_dormitory/police_balcony.JPG",
+          "caption": "The second floor balcony, with an amazing view of Kobe",
+          "thumbnail": "/images/buildings/police_dormitory/police_balcony.JPG"
         }
       ],
       "video": {
@@ -200,7 +200,7 @@
         "thumbnail": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=300"
       },
       "model3d": {
-        "url": "/models/rokko-retreat.glb",
+        "url": "/models/bison_police_house.glb",
         "format": "glb",
         "hasModel": true
       },
@@ -212,28 +212,24 @@
     },
     {
       "id": "6",
-      "name": "Kobe Medical Center Renewal",
+      "name": "Port Bike Shop",
       "location": {
-        "lat": 34.6820,
-        "lng": 135.1702,
-        "address": "5-1-1 Minatojima-minamimachi, Chuo-ku, Kobe"
+        "lat": 34.676041,
+        "lng": 135.178706,
+        "address": "5 Chome-1-3 Aioicho, Chuo Ward, Kobe, Hyogo"
       },
-      "description": "A comprehensive renovation of a medical facility focused on creating healing environments through thoughtful design. The project introduced natural light throughout patient areas, healing gardens, and artwork that promotes wellness. Advanced building systems improve air quality and acoustic comfort while reducing energy consumption. The design prioritizes patient dignity and staff efficiency.",
+      "description": "Port Bike Shop is situated on the first floor of a mixed-use building owned and renovated by Haioku Group. The shop is operated independently by Kawasaki-san, while the second and third floors function as a Haioku-managed hotel and Airbnb. Prior to the renovation, the building served exclusively as a residence, and after talking with Nishimura-San, Kawasaki-San decided to fulfill his dreams of being a business owner by opening a shop in this building.\n    Assisted by Haioku Group, Kawasaki-San began to change the building. He started by replacing the small, old, Japanese door with a more standard door and interior, creating the skeleton of the shop. At this point, Kawasaki-San fully took over in designing the shop, while being supplied with scrap materials by Haioku Group, that were obtained from their renovation of the top two floors.\n    Strongly inspired by Australian bike shops, Kawasaki-San also wanted Port Bike shop to include a café component, where he could serve drinks, which increased the community of the store and allowed him to attract more customers. With ambitions to continue improving the Port Bike shop and continue repairing old bikes, Kawasaki-San wants to continue fostering a community of both customers and business owners who understand the value in renovating old bicycles rather than just buying new ones, serving as an extension of the Haioku Group philosophy.",
+      "descriptionJa": "自転車屋ポートは、廃屋グループが所有・改装した複合用途ビルの1階に位置しています。ショップは川崎さんによって独立して運営されており、2階と3階は廃屋グループが管理するホテル兼Airbnbとして機能しています。改装前、建物は専ら住居として使用されていましたが、西村さんと話した後、川崎さんはこの建物にショップを開くことでビジネスオーナーになるという夢を実現することにしました。\n    ハイオクグループの支援を受けて、川崎さんは建物を変え始めました。彼は小さな古い日本のドアをより標準的なドアとインテリアに交換することから始め、ショップの骨格を作りました。この時点で、川崎さんはショップのデザインを完全に引き継ぎ、廃屋グループから上の2階の改装から得られたスクラップ材料を供給されました。\n    オーストラリアの自転車ショップに強く触発された川崎さんは、自転車屋ポートにカフェの要素を含めて飲み物を提供できるようにしたいと考えていました。これにより、店としての活動内容を拡大し、より多くの顧客を引き付けることができました。自転車屋ポートを改善し続け、古い自転車を修理し続けるという理念を元に、川崎さんは、新しい自転車を買うのではなく古い自転車を改装することの価値を理解する顧客とビジネスオーナーのコミュニティを育成し続けたいと考えており、廃屋グループの哲学を体現しています。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920",
-          "caption": "Welcoming entrance with healing garden",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300"
+          "url": "/images/buildings/port_bike_shop/DSC00072.JPG",
+          "caption": "Port Bike Shop exterior and street view",
+          "thumbnail": "/images/buildings/port_bike_shop/DSC00072.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920",
-          "caption": "Patient area designed for comfort and natural light",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920",
-          "caption": "Interior corridor with artwork and natural views",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300"
+          "url": "/images/buildings/port_bike_shop/DSC00074.JPG",
+          "caption": "Detail view of Port Bike Shop façade",
+          "thumbnail": "/images/buildings/port_bike_shop/DSC00074.JPG"
         }
       ],
       "video": {
@@ -254,28 +250,24 @@
     },
     {
       "id": "7",
-      "name": "Suma Beachfront Pavilion",
+      "name": "Ajito Basement",
       "location": {
-        "lat": 34.6456,
-        "lng": 135.1189,
-        "address": "1-3 Suma-ura-dori, Suma-ku, Kobe"
+        "lat": 34.69400,
+        "lng": 135.17140,
+        "address": "16-37 Umemotocho, Hyogo Ward, Kobe, Hyogo 652-0003"
       },
-      "description": "A public pavilion renovation that celebrates Suma Beach's role as a beloved recreational destination. The design features a distinctive curved roof inspired by ocean waves, open-air spaces that capture sea breezes, and durable materials selected to withstand coastal conditions. The pavilion serves multiple functions including changing facilities, cafe, and event space for summer festivals.",
+      "description": "The Ajito was acquired as part of the same deal as the Gotei(Mansion) and Tea house, and was originally a storage basement connected to a hut in the Gotei's yard. When they forced aqurried the Ajito, Bison was finding ways to deal with sound problems and potential noise issues from late night gathering of members, so they decided to use the basement as a sound proof room for members. To make the room sound proof they created window seals and a door by layering deconstructed tatami mats.\nCurrently the sound proofed Ajito is used as a place to gather, but also a place for any type of events regarding sound. Some members have hosted concerts within the structure as well as other members hosting rave nights by inviting DJs and DJing themselves.\nFurther reinvention plans of the Ajito mostly retain to sound proofing the room and reinforcing the water proofing and structure of the Ajito ceiling.",
+      "descriptionJa": "アジトは、豪邸と共同茶室と同じ取引の一環として取得され、元々は豪邸の庭の納屋に接続された貯蔵地下室でした。廃屋グループが豪邸を購入した時期、バイソンはメンバーの深夜の集まりからの騒音問題と潜在的な騒音問題に対処する方法を探していたため、地下室をメンバーのための防音室として使用することにしました。部屋を防音にするために、解体した畳を重ねて作成した防音窓とドア使用しています。\n現在、防音されたアジトは集まる場所として機能していますが、音に関するあらゆる種類のイベントの場所としても使用されています。一部のメンバーは構造内でコンサートを主催し、他のメンバーはDJを招待したり、自分でDJをしたりしてナイトクラブの様なイベントを主催したりしています。\nアジトのさらなるリノベーションは、主に部屋の防音とアジトの天井の防水と構造の強化に留まる予定です。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1920",
-          "caption": "Beachfront pavilion with distinctive wave-inspired roof",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=300"
+          "url": "/images/buildings/rave_basement/basement_1.JPG",
+          "caption": "Ajito basement interior during the day",
+          "thumbnail": "/images/buildings/rave_basement/basement_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=1920",
-          "caption": "Open-air spaces designed for beach activities",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=1920",
-          "caption": "Evening view with integrated lighting",
-          "thumbnail": "https://images.unsplash.com/photo-1600607686488-9f7855d711bc?w=300"
+          "url": "/images/buildings/rave_basement/open_bison_1.JPG",
+          "caption": "Ajito basement during the Open Bison event",
+          "thumbnail": "/images/buildings/rave_basement/open_bison_1.JPG"
         }
       ],
       "video": {
@@ -296,28 +288,29 @@
     },
     {
       "id": "8",
-      "name": "Ikuta Shrine Community Hall",
+      "name": "Tanibuka",
       "location": {
-        "lat": 34.6923,
-        "lng": 135.1928,
-        "address": "1-2-1 Shimoyamate-dori, Chuo-ku, Kobe"
+        "lat": 34.692222,
+        "lng": 135.16360,
+        "address": "〒652-0011 Hyogo, Kobe, Hyogo Ward, Sannocho, 1 Chome−5−15"
       },
-      "description": "Adjacent to the historic Ikuta Shrine, this community hall renovation respects traditional Japanese architectural principles while serving modern community needs. The design incorporates natural materials, sliding partitions for flexible space use, and a roof garden that provides both insulation and contemplative space. The building hosts cultural events, educational programs, and community gatherings.",
+      "description": "Sample",
+      "descriptionJa": "サンプル",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1920",
-          "caption": "Community hall harmonizing with shrine grounds",
-          "thumbnail": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=300"
+          "url": "/images/buildings/tanibuka/tanibuka_exterior_1.JPG",
+          "caption": "Tanibuka exterior on the street",
+          "thumbnail": "/images/buildings/tanibuka/tanibuka_exterior_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1920",
-          "caption": "Flexible interior space with traditional elements",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=300"
+          "url": "/images/buildings/tanibuka/tanibuka_exterior_2.JPG",
+          "caption": "Another view of Tanibuka exterior",
+          "thumbnail": "/images/buildings/tanibuka/tanibuka_exterior_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=1920",
-          "caption": "Roof garden providing contemplative space",
-          "thumbnail": "https://images.unsplash.com/photo-1600573472555-7c69c27009ab?w=300"
+          "url": "/images/buildings/tanibuka/tanibuka_interior.JPG",
+          "caption": "Tanibuka interior communal space",
+          "thumbnail": "/images/buildings/tanibuka/tanibuka_interior.JPG"
         }
       ],
       "video": {
@@ -338,28 +331,29 @@
     },
     {
       "id": "9",
-      "name": "Nagata Urban Farm Market",
+      "name": "Kyogo Tea House",
       "location": {
-        "lat": 34.6654,
-        "lng": 135.1458,
-        "address": "7-1-1 Futabacho, Nagata-ku, Kobe"
+        "lat": 34.69415,
+        "lng": 135.17156,
+        "address": "16-37 Umemotocho, Hyogo Ward, Kobe, Hyogo 652-0003"
       },
-      "description": "This innovative project transformed an underutilized parking structure into an urban farm and farmers' market. The renovation includes rooftop growing areas, vendor stalls constructed from reclaimed materials, and educational spaces for urban agriculture workshops. The design promotes local food systems and community resilience while activating previously dead space in the urban fabric.",
+      "description": "The Gotei-Tea house is one of the buildings that comprises the Gotei Bison development. One of Nishimura-San's most anticipated lots to work on, he eventually got the opportunity to work on this building after renovating many akiya and making a few television appearances. Unlike many of the projects that Haioku Group has worked on, the Tea House was already a beautiful building, and many of the renovations were making slight changes to the interior. They replaced the floors with new wooden floors, and replaced the sliding paper doors with sliding glass doors. They additionally build in new supports to provide protection against earthquakes. Currently, the Tea House hosts a once per month event called \"Chagama(tea kiln)\" where people get together, relax, and drink some tea, as well as unscheduled eve nts like yoga, photo galleries, and small concerts.",
+      "descriptionJa": "共同茶室は、バイソンの豪邸を構成する建物の1つです。西村さんが最も期待していた土地の1つで、多くの空き家を改装し、いくつかのテレビ出演をした後、最終的にこの建物に取り組む機会を得ました。廃屋グループが取り組んできた多くのプロジェクトとは異なり、茶室はリノベーション前からすでに美しい建物であり、改装は主にインテリアへの変更に留まりました。彼らは床を新しい木製の床に交換し、紙のスライディングドアをガラスのスライディングドアに交換しました。さらに、地震に対する保護を提供するために新しいサポートを構築しました。現在、ティーハウスは月に1回「茶釜」と呼ばれるイベントを開催しており、人々が集まってリラックスしてお茶を飲んだりするほか、ヨガ、写真ギャラリー、小さなコンサートなどの予定外のイベントも開催しています。",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920",
-          "caption": "Urban farm market creating community space",
-          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300"
+          "url": "/images/buildings/tea_house/tea_house_1.JPG",
+          "caption": "Kyogo Tea House exterior view",
+          "thumbnail": "/images/buildings/tea_house/tea_house_1.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920",
-          "caption": "Vendor stalls with reclaimed materials",
-          "thumbnail": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=300"
+          "url": "/images/buildings/tea_house/tea_house_2.JPG",
+          "caption": "Interior seating area at Kyogo Tea House",
+          "thumbnail": "/images/buildings/tea_house/tea_house_2.JPG"
         },
         {
-          "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920",
-          "caption": "Rooftop growing areas supporting local food",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=300"
+          "url": "/images/buildings/tea_house/tea_house_open_bison.JPG",
+          "caption": "Kyogo Tea House during the Open Bison event",
+          "thumbnail": "/images/buildings/tea_house/tea_house_open_bison.JPG"
         }
       ],
       "video": {
@@ -368,56 +362,14 @@
         "thumbnail": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=300"
       },
       "model3d": {
-        "url": "",
-        "format": "",
-        "hasModel": false
+        "url": "/models/teahouse.glb",
+        "format": "glb",
+        "hasModel": true
       },
       "metadata": {
         "yearCompleted": 2024,
         "projectType": "Urban Agriculture",
         "tags": ["sustainable", "community", "agriculture"]
-      }
-    },
-    {
-      "id": "10",
-      "name": "Hyogo Prefectural Museum Annex",
-      "location": {
-        "lat": 34.6864,
-        "lng": 135.1910,
-        "address": "2-1-1 Wakinohama Kaigan-dori, Chuo-ku, Kobe"
-      },
-      "description": "The museum annex renovation created contemporary exhibition spaces while respecting the existing building's modernist architecture. The project introduced state-of-the-art climate control for artifact preservation, flexible display systems, accessible circulation, and a striking glass atrium that serves as a gathering space. The design balances the demands of artifact conservation with creating an inviting public cultural venue.",
-      "images": [
-        {
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920",
-          "caption": "Museum annex with contemporary glass atrium",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920",
-          "caption": "Exhibition space with flexible display systems",
-          "thumbnail": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920",
-          "caption": "Interior gallery with natural and artificial lighting",
-          "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=300"
-        }
-      ],
-      "video": {
-        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "type": "youtube",
-        "thumbnail": "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=300"
-      },
-      "model3d": {
-        "url": "/models/museum-annex.glb",
-        "format": "glb",
-        "hasModel": true
-      },
-      "metadata": {
-        "yearCompleted": 2022,
-        "projectType": "Cultural Facility",
-        "tags": ["cultural", "modernist", "exhibition"]
       }
     }
   ]
