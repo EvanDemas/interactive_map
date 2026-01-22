@@ -71,9 +71,9 @@
         "thumbnail": "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?w=300"
       },
       "model3d": {
-        "url": "/models/kitano-house.glb",
-        "format": "glb",
-        "hasModel": true
+        "url": "",
+        "format": "",
+        "hasModel": false
       },
       "metadata": {
         "yearCompleted": 2022,

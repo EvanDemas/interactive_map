@@ -8,6 +8,32 @@ const Model = ({ url }) => {
   return <primitive object={scene} scale={1} />;
 };
 
+class ModelErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { error: null };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { error };
+  }
+
+  componentDidCatch(error, info) {
+    if (this.props.onError) {
+      this.props.onError(error);
+    }
+    console.error('3D model render error:', error, info);
+  }
+
+  render() {
+    if (this.state.error) {
+      return this.props.fallback;
+    }
+
+    return this.props.children;
+  }
+}
+
 const Model3DViewer = ({ model3d }) => {
   const [error, setError] = useState(null);
   
@@ -20,6 +46,10 @@ const Model3DViewer = ({ model3d }) => {
   const modelUrl = model3d.url.startsWith('http') ? model3d.url : `${API_URL}${model3d.url}`;
 
   console.log('Loading 3D model from:', modelUrl);
+
+  useEffect(() => {
+    setError(null);
+  }, [modelUrl]);
 
   return (
     <div className={styles.modelSection}>
@@ -36,25 +66,30 @@ const Model3DViewer = ({ model3d }) => {
                 <p>Loading 3D model...</p>
               </div>
             }>
-              <Canvas
-                onError={(e) => {
-                  console.error('Canvas error:', e);
-                  setError(e.message);
-                }}
+              <ModelErrorBoundary
+                key={modelUrl}
+                onError={(e) => setError(e?.message || 'Unable to load model')}
+                fallback={
+                  <div className={styles.loading}>
+                    <p>3D model unavailable for this building.</p>
+                  </div>
+                }
               >
-                <PerspectiveCamera makeDefault position={[0, 2, 5]} />
-                <OrbitControls 
-                  enableZoom={true}
-                  enablePan={true}
-                  enableRotate={true}
-                  autoRotate={false}
-                />
-                <ambientLight intensity={0.5} />
-                <directionalLight position={[10, 10, 5]} intensity={1} />
-                <spotLight position={[0, 10, 0]} angle={0.3} intensity={0.5} />
-                <Environment preset="studio" />
-                <Model url={modelUrl} />
-              </Canvas>
+                <Canvas>
+                  <PerspectiveCamera makeDefault position={[0, 2, 5]} />
+                  <OrbitControls 
+                    enableZoom={true}
+                    enablePan={true}
+                    enableRotate={true}
+                    autoRotate={false}
+                  />
+                  <ambientLight intensity={0.5} />
+                  <directionalLight position={[10, 10, 5]} intensity={1} />
+                  <spotLight position={[0, 10, 0]} angle={0.3} intensity={0.5} />
+                  <Environment preset="studio" />
+                  <Model url={modelUrl} />
+                </Canvas>
+              </ModelErrorBoundary>
             </Suspense>
           )}
         </div>
