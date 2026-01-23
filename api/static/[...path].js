@@ -25,7 +25,7 @@ export default function handler(req, res) {
   }
 
   try {
-    const filePath = join(__dirname, '..', 'backend', 'public', ...path);
+    const filePath = join(__dirname, '..', '..', 'backend', 'public', ...path);
     const fileContent = readFileSync(filePath);
     
     // Set appropriate content type based on file extension
