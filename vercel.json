@@ -17,11 +17,11 @@
     },
     {
       "source": "/images/:path*",
-      "destination": "/api/static/:path*"
+      "destination": "/api/static/images/:path*"
     },
     {
       "source": "/models/:path*",
-      "destination": "/api/static/:path*"
+      "destination": "/api/static/models/:path*"
     },
     {
       "source": "/(.*)",
