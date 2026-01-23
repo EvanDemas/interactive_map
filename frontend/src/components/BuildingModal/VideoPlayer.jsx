@@ -10,12 +10,12 @@ const VideoPlayer = ({ video }) => {
   // Construct full URL for the thumbnail
   const envApiUrl = import.meta.env.VITE_API_URL;
   const fallbackOrigin = typeof window !== 'undefined' ? window.location.origin : '';
-  const API_URL = envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001');
+  const baseUrl = (envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001')).replace(/\/+$/, '');
   
   // Normalize path to avoid double slashes
   const normalizedThumbUrl = video.thumbnail && video.thumbnail.startsWith('/') ? video.thumbnail : `/${video.thumbnail || ''}`;
   const thumbnailUrl = video.thumbnail && !video.thumbnail.startsWith('http') 
-    ? `${API_URL}${normalizedThumbUrl}` 
+    ? `${baseUrl}${normalizedThumbUrl}` 
     : video.thumbnail;
 
   return (

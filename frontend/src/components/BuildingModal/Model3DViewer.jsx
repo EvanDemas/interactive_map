@@ -44,11 +44,11 @@ const Model3DViewer = ({ model3d }) => {
   // Construct full URL for the model
   const envApiUrl = import.meta.env.VITE_API_URL;
   const fallbackOrigin = typeof window !== 'undefined' ? window.location.origin : '';
-  const API_URL = envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001');
+  const baseUrl = (envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001')).replace(/\/+$/, '');
   
   // Normalize path to avoid double slashes
   const normalizedUrl = model3d.url.startsWith('/') ? model3d.url : `/${model3d.url}`;
-  const modelUrl = model3d.url.startsWith('http') ? model3d.url : `${API_URL}${normalizedUrl}`;
+  const modelUrl = model3d.url.startsWith('http') ? model3d.url : `${baseUrl}${normalizedUrl}`;
 
   console.log('Loading 3D model from:', modelUrl);
 

@@ -5,7 +5,7 @@ import styles from './PhotoGallery.module.css';
 
 const envApiUrl = import.meta.env.VITE_API_URL;
 const fallbackOrigin = typeof window !== 'undefined' ? window.location.origin : '';
-const API_URL = envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001');
+const API_URL = (envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001')).replace(/\/+$/, '');
 
 const resolveImageUrl = (url) => {
   // Absolute URLs (http, https) are used as-is (e.g. Unsplash)
