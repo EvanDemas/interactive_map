@@ -3,7 +3,9 @@ import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import styles from './PhotoGallery.module.css';
 
-const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '' : 'http://localhost:3001');
+const envApiUrl = import.meta.env.VITE_API_URL;
+const fallbackOrigin = typeof window !== 'undefined' ? window.location.origin : '';
+const API_URL = envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001');
 
 const resolveImageUrl = (url) => {
   // Absolute URLs (http, https) are used as-is (e.g. Unsplash)

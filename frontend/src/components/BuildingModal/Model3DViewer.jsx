@@ -42,7 +42,9 @@ const Model3DViewer = ({ model3d }) => {
   }
 
   // Construct full URL for the model
-  const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? '' : 'http://localhost:3001');
+  const envApiUrl = import.meta.env.VITE_API_URL;
+  const fallbackOrigin = typeof window !== 'undefined' ? window.location.origin : '';
+  const API_URL = envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001');
   const modelUrl = model3d.url.startsWith('http') ? model3d.url : `${API_URL}${model3d.url}`;
 
   console.log('Loading 3D model from:', modelUrl);
