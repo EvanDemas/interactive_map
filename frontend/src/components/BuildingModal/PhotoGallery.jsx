@@ -13,7 +13,9 @@ const resolveImageUrl = (url) => {
   if (/^https?:\/\//i.test(url)) return url;
 
   // Relative URLs (starting with /images/...) should be served from the backend
-  return `${API_URL}${url}`;
+  // Normalize path to avoid double slashes
+  const normalizedUrl = url.startsWith('/') ? url : `/${url}`;
+  return `${API_URL}${normalizedUrl}`;
 };
 
 const PhotoGallery = ({ images }) => {
