@@ -8,7 +8,7 @@ const Header = () => {
         <div className={styles.logo}>
           <h1 className={styles.title}>
             <span className={styles.titleMain}>Haioku Group</span>
-            <span className={styles.titleSub}>Reinovating Abandonded Houses Vercel check 1</span>
+            <span className={styles.titleSub}>Reinovating Abandonded Houses2</span>
           </h1>
           <div className={styles.underline}></div>
         </div>

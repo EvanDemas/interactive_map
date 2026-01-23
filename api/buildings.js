@@ -1,5 +1,20 @@
-// Import JSON data as JavaScript module
-import buildingsData from './buildings-data.js';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const buildingsPath = join(__dirname, '..', 'backend', 'src', 'data', 'buildings.json');
+let buildingsData;
+
+try {
+  const data = readFileSync(buildingsPath, 'utf8');
+  buildingsData = JSON.parse(data);
+} catch (error) {
+  console.error('Error loading buildings data:', error);
+  buildingsData = { buildings: [] };
+}
 
 export default function handler(req, res) {
   // Enable CORS

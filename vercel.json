@@ -1,6 +1,9 @@
 {
   "version": 2,
   "functions": {
+    "api/buildings.js": {
+      "includeFiles": "backend/src/data/buildings.json"
+    },
     "api/static/[...path].js": {
       "includeFiles": "backend/public/**"
     }

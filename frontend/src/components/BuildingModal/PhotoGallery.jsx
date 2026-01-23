@@ -5,7 +5,9 @@ import styles from './PhotoGallery.module.css';
 
 const envApiUrl = import.meta.env.VITE_API_URL;
 const fallbackOrigin = typeof window !== 'undefined' ? window.location.origin : '';
-const API_URL = (envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001')).replace(/\/+$/, '');
+const baseOrigin = (envApiUrl || (import.meta.env.PROD ? fallbackOrigin : 'http://localhost:3001')).replace(/\/+$/, '');
+const staticBase = import.meta.env.PROD ? '/api/static' : '';
+const ASSET_BASE_URL = `${baseOrigin}${staticBase}`.replace(/\/+$/, '');
 
 const resolveImageUrl = (url) => {
   // Absolute URLs (http, https) are used as-is (e.g. Unsplash)
@@ -15,7 +17,7 @@ const resolveImageUrl = (url) => {
   // Relative URLs (starting with /images/...) should be served from the backend
   // Normalize path to avoid double slashes
   const normalizedUrl = url.startsWith('/') ? url : `/${url}`;
-  return `${API_URL}${normalizedUrl}`;
+  return `${ASSET_BASE_URL}${normalizedUrl}`;
 };
 
 const PhotoGallery = ({ images }) => {
