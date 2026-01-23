@@ -10,34 +10,37 @@
   },
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/static/:path*",
-      "destination": "/api/static/:path*"
+      "handle": "filesystem"
     },
     {
-      "source": "/api/buildings",
-      "destination": "/api/buildings"
+      "src": "/api/static/(.*)",
+      "dest": "/api/static/[...path].js?path=$1"
     },
     {
-      "source": "/api/buildings/:id",
-      "destination": "/api/buildings?id=:id"
+      "src": "/api/buildings$",
+      "dest": "/api/buildings.js"
     },
     {
-      "source": "/api/health",
-      "destination": "/api/health"
+      "src": "/api/buildings/(.*)",
+      "dest": "/api/buildings.js?id=$1"
     },
     {
-      "source": "/images/:path*",
-      "destination": "/api/static/images/:path*"
+      "src": "/api/health$",
+      "dest": "/api/health.js"
     },
     {
-      "source": "/models/:path*",
-      "destination": "/api/static/models/:path*"
+      "src": "/images/(.*)",
+      "dest": "/api/static/[...path].js?path=images/$1"
     },
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "src": "/models/(.*)",
+      "dest": "/api/static/[...path].js?path=models/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }

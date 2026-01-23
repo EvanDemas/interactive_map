@@ -8,7 +8,7 @@ const Header = () => {
         <div className={styles.logo}>
           <h1 className={styles.title}>
             <span className={styles.titleMain}>Haioku Group</span>
-            <span className={styles.titleSub}>Reinovating Abandonded Houses3</span>
+            <span className={styles.titleSub}>Reinovating Abandonded Houses4</span>
           </h1>
           <div className={styles.underline}></div>
         </div>

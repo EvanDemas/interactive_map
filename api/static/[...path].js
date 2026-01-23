@@ -18,18 +18,21 @@ export default function handler(req, res) {
   }
 
   const { path } = req.query;
+  const pathParts = Array.isArray(path)
+    ? path
+    : (typeof path === 'string' ? path.split('/').filter(Boolean) : null);
   
-  if (!path || !Array.isArray(path)) {
+  if (!pathParts || pathParts.length === 0) {
     res.status(400).json({ error: 'Invalid path' });
     return;
   }
 
   try {
-    const filePath = join(__dirname, '..', '..', 'backend', 'public', ...path);
+    const filePath = join(__dirname, '..', '..', 'backend', 'public', ...pathParts);
     const fileContent = readFileSync(filePath);
     
     // Set appropriate content type based on file extension
-    const ext = path[path.length - 1].split('.').pop().toLowerCase();
+    const ext = pathParts[pathParts.length - 1].split('.').pop().toLowerCase();
     const contentTypes = {
       'jpg': 'image/jpeg',
       'jpeg': 'image/jpeg',
