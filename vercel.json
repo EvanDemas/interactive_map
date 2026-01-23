@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "functions": {
+    "api/static/[...path].js": {
+      "includeFiles": "backend/public/**"
+    }
+  },
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "rewrites": [
