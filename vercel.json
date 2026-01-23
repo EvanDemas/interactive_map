@@ -12,6 +12,10 @@
   "outputDirectory": "frontend/dist",
   "rewrites": [
     {
+      "source": "/api/static/:path*",
+      "destination": "/api/static/:path*"
+    },
+    {
       "source": "/api/buildings",
       "destination": "/api/buildings"
     },
