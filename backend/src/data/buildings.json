@@ -364,7 +364,7 @@
       "model3d": {
         "url": "/models/teahouse.glb",
         "format": "glb",
-        "hasModel": true
+        "hasModel": false
       },
       "metadata": {
         "yearCompleted": 2024,
